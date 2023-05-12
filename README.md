@@ -143,7 +143,7 @@ echo "domain" | subfinder -silent | gauplus | grep "=" | uro | gf xss | awk '{ p
 ### BugCrowd Programs
 > @dwisiswant0
 ```bash
-curl -sL https://github.com/arkadiyt/bounty-targets-data/raw/master/data/bugcrowd_data.json | jq -r '.[].targets.in_scope[] | [.target, .type] | @tsv'
+curl -sL https://github.com/tucommenceapousser/bounty-targets-data/raw/master/data/bugcrowd_data.json | jq -r '.[].targets.in_scope[] | [.target, .type] | @tsv'
 ```
 
 ## Recon.dev
